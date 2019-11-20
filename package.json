@@ -14,8 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.7.4",
-    "morgan": "^1.9.1"
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1",
+    "node": "^13.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
