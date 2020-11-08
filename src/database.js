@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
+import mongoose, { connect } from 'mongoose';
 const URI = 'mongodb://localhost/mern-crud-test';
 
-mongoose.connect(URI)
+connect(URI)
   .then(db => console.log('Db is connected'))
   .catch(error => console.error(error));
 
-module.exports = mongoose;
+export default mongoose;
